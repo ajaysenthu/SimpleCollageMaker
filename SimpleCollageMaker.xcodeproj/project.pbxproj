@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0401578D24B9F68D009F6BA5 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401578B24B9F68D009F6BA5 /* PhotoCollectionViewCell.swift */; };
+		0401578E24B9F68D009F6BA5 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0401578C24B9F68D009F6BA5 /* PhotoCollectionViewCell.xib */; };
+		0401579024BA152F009F6BA5 /* FetchPhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401578F24BA152F009F6BA5 /* FetchPhotoService.swift */; };
 		04B3CC3024B99616005F76E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3CC2F24B99616005F76E8 /* AppDelegate.swift */; };
 		04B3CC3224B99616005F76E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3CC3124B99616005F76E8 /* SceneDelegate.swift */; };
-		04B3CC3424B99616005F76E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3CC3324B99616005F76E8 /* ViewController.swift */; };
+		04B3CC3424B99616005F76E8 /* CollageMakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3CC3324B99616005F76E8 /* CollageMakerViewController.swift */; };
 		04B3CC3724B99616005F76E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B3CC3524B99616005F76E8 /* Main.storyboard */; };
 		04B3CC3A24B99616005F76E8 /* SimpleCollageMaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04B3CC3824B99616005F76E8 /* SimpleCollageMaker.xcdatamodeld */; };
 		04B3CC3C24B99617005F76E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B3CC3B24B99617005F76E8 /* Assets.xcassets */; };
 		04B3CC3F24B99617005F76E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B3CC3D24B99617005F76E8 /* LaunchScreen.storyboard */; };
+		04B3CC4724B9C72E005F76E8 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3CC4624B9C72E005F76E8 /* PhotosCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0401578B24B9F68D009F6BA5 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		0401578C24B9F68D009F6BA5 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		0401578F24BA152F009F6BA5 /* FetchPhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPhotoService.swift; sourceTree = "<group>"; };
 		04B3CC2C24B99616005F76E8 /* SimpleCollageMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCollageMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B3CC2F24B99616005F76E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B3CC3124B99616005F76E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04B3CC3324B99616005F76E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04B3CC3324B99616005F76E8 /* CollageMakerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollageMakerViewController.swift; sourceTree = "<group>"; };
 		04B3CC3624B99616005F76E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04B3CC3924B99616005F76E8 /* SimpleCollageMaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleCollageMaker.xcdatamodel; sourceTree = "<group>"; };
 		04B3CC3B24B99617005F76E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B3CC3E24B99617005F76E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B3CC4024B99617005F76E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B3CC4624B9C72E005F76E8 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +68,11 @@
 			children = (
 				04B3CC2F24B99616005F76E8 /* AppDelegate.swift */,
 				04B3CC3124B99616005F76E8 /* SceneDelegate.swift */,
-				04B3CC3324B99616005F76E8 /* ViewController.swift */,
+				04B3CC3324B99616005F76E8 /* CollageMakerViewController.swift */,
+				0401578F24BA152F009F6BA5 /* FetchPhotoService.swift */,
+				04B3CC4624B9C72E005F76E8 /* PhotosCollectionViewController.swift */,
+				0401578B24B9F68D009F6BA5 /* PhotoCollectionViewCell.swift */,
+				0401578C24B9F68D009F6BA5 /* PhotoCollectionViewCell.xib */,
 				04B3CC3524B99616005F76E8 /* Main.storyboard */,
 				04B3CC3B24B99617005F76E8 /* Assets.xcassets */,
 				04B3CC3D24B99617005F76E8 /* LaunchScreen.storyboard */,
@@ -129,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B3CC3F24B99617005F76E8 /* LaunchScreen.storyboard in Resources */,
+				0401578E24B9F68D009F6BA5 /* PhotoCollectionViewCell.xib in Resources */,
 				04B3CC3C24B99617005F76E8 /* Assets.xcassets in Resources */,
 				04B3CC3724B99616005F76E8 /* Main.storyboard in Resources */,
 			);
@@ -142,8 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B3CC3A24B99616005F76E8 /* SimpleCollageMaker.xcdatamodeld in Sources */,
-				04B3CC3424B99616005F76E8 /* ViewController.swift in Sources */,
+				04B3CC3424B99616005F76E8 /* CollageMakerViewController.swift in Sources */,
 				04B3CC3024B99616005F76E8 /* AppDelegate.swift in Sources */,
+				04B3CC4724B9C72E005F76E8 /* PhotosCollectionViewController.swift in Sources */,
+				0401578D24B9F68D009F6BA5 /* PhotoCollectionViewCell.swift in Sources */,
+				0401579024BA152F009F6BA5 /* FetchPhotoService.swift in Sources */,
 				04B3CC3224B99616005F76E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
