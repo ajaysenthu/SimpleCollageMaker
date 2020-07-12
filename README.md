@@ -7,9 +7,9 @@ This is a simple collage maker where you can select multiple photos from photo l
 
 2. Tap on 'Add' to get photos from PhotoLibrary. Don't forget to give access the first time you launch, you'll have to delete the app and build again otherwise.
 
-3. Select multiple photos from the library and tap on 'Done'
+3. Select multiple photos from the library and tap on 'Done'. Now, you get your selected photos on the canvas. You can tap drag each photo within the canvas.
 
-4. Now, you get your selected photos on the canvas. You can use two fingers to rotate and pinch to scale the image. Also there are manaual buttons to increase/decrease width and height 10 points each time you tap and to rotate right and left.
+4. You can use two fingers to rotate and pinch to scale the image. Also there are manaual buttons to increase/decrease width and height 10 points each time you tap and to rotate right and left.
 
 5. You can remove a photo by a single tap on it and the then tap on 'Remove' button to remove it from the canvas.
 
