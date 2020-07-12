@@ -17,5 +17,5 @@ This is a simple collage maker where you can select multiple photos from photo l
 
 # No third parties used in this sample app.
 
-![alt text](https://github.com/[ajaysenthu]/[SimpleCollageMaker]/blob/[master]/Screenshot 2020-07-12 at 9.36.57 PM.png?raw=true)
+![alt text](https://github.com/[ajaysenthu]/[SimpleCollageMaker]/blob/[master]/"Screenshot 2020-07-12 at 9.36.57 PM".png?raw=true)
 
