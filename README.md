@@ -18,3 +18,6 @@ This is a simple collage maker where you can select multiple photos from photo l
 # No third parties used in this sample app.
 
 <img width="360" alt="Screenshot 2020-07-12 at 9 36 57 PM" src="https://user-images.githubusercontent.com/16835144/87252014-7cb6a980-c48d-11ea-901b-ed0249c78e51.png">
+
+<img width="360" alt="Screenshot 2020-07-12 at 9 36 02 PM" src="https://user-images.githubusercontent.com/16835144/87252097-239b4580-c48e-11ea-8ca5-6109b3a720ae.png">
+
