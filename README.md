@@ -16,3 +16,6 @@ This is a simple collage maker where you can select multiple photos from photo l
 6. Now, you can tap on 'Export' button at the top right corner and select tap on 'Save Image' to save it your saved photos album, if you're using email apps in the device you can also send it as an attachment through gmail, skype or mail.
 
 # No third parties used in this sample app.
+
+![alt text](https://github.com/[ajaysenthu]/[SimpleCollageMaker]/blob/[master]/Screenshot 2020-07-12 at 9.36.57 PM.png?raw=true)
+
