@@ -10,9 +10,6 @@
 		0401578D24B9F68D009F6BA5 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401578B24B9F68D009F6BA5 /* PhotoCollectionViewCell.swift */; };
 		0401578E24B9F68D009F6BA5 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0401578C24B9F68D009F6BA5 /* PhotoCollectionViewCell.xib */; };
 		0401579024BA152F009F6BA5 /* FetchPhotoServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401578F24BA152F009F6BA5 /* FetchPhotoServiceViewModel.swift */; };
-		049D252924BB73D200BD0FCC /* Screenshot 2020-07-12 at 9.36.57 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 049D252824BB73D200BD0FCC /* Screenshot 2020-07-12 at 9.36.57 PM.png */; };
-		049D252C24BB73DC00BD0FCC /* Screenshot 2020-07-12 at 9.36.39 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 049D252A24BB73DC00BD0FCC /* Screenshot 2020-07-12 at 9.36.39 PM.png */; };
-		049D252D24BB73DC00BD0FCC /* Screenshot 2020-07-12 at 9.36.02 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 049D252B24BB73DC00BD0FCC /* Screenshot 2020-07-12 at 9.36.02 PM.png */; };
 		04B3CC3024B99616005F76E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3CC2F24B99616005F76E8 /* AppDelegate.swift */; };
 		04B3CC3224B99616005F76E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3CC3124B99616005F76E8 /* SceneDelegate.swift */; };
 		04B3CC3424B99616005F76E8 /* CollageMakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3CC3324B99616005F76E8 /* CollageMakerViewController.swift */; };
@@ -27,9 +24,6 @@
 		0401578B24B9F68D009F6BA5 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		0401578C24B9F68D009F6BA5 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
 		0401578F24BA152F009F6BA5 /* FetchPhotoServiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPhotoServiceViewModel.swift; sourceTree = "<group>"; };
-		049D252824BB73D200BD0FCC /* Screenshot 2020-07-12 at 9.36.57 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2020-07-12 at 9.36.57 PM.png"; sourceTree = "<group>"; };
-		049D252A24BB73DC00BD0FCC /* Screenshot 2020-07-12 at 9.36.39 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2020-07-12 at 9.36.39 PM.png"; sourceTree = "<group>"; };
-		049D252B24BB73DC00BD0FCC /* Screenshot 2020-07-12 at 9.36.02 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2020-07-12 at 9.36.02 PM.png"; sourceTree = "<group>"; };
 		04B3CC2C24B99616005F76E8 /* SimpleCollageMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCollageMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B3CC2F24B99616005F76E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B3CC3124B99616005F76E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,9 +78,6 @@
 				04B3CC3D24B99617005F76E8 /* LaunchScreen.storyboard */,
 				04B3CC4024B99617005F76E8 /* Info.plist */,
 				04B3CC3824B99616005F76E8 /* SimpleCollageMaker.xcdatamodeld */,
-				049D252824BB73D200BD0FCC /* Screenshot 2020-07-12 at 9.36.57 PM.png */,
-				049D252B24BB73DC00BD0FCC /* Screenshot 2020-07-12 at 9.36.02 PM.png */,
-				049D252A24BB73DC00BD0FCC /* Screenshot 2020-07-12 at 9.36.39 PM.png */,
 			);
 			path = SimpleCollageMaker;
 			sourceTree = "<group>";
@@ -149,12 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049D252D24BB73DC00BD0FCC /* Screenshot 2020-07-12 at 9.36.02 PM.png in Resources */,
 				04B3CC3F24B99617005F76E8 /* LaunchScreen.storyboard in Resources */,
 				0401578E24B9F68D009F6BA5 /* PhotoCollectionViewCell.xib in Resources */,
-				049D252C24BB73DC00BD0FCC /* Screenshot 2020-07-12 at 9.36.39 PM.png in Resources */,
 				04B3CC3C24B99617005F76E8 /* Assets.xcassets in Resources */,
-				049D252924BB73D200BD0FCC /* Screenshot 2020-07-12 at 9.36.57 PM.png in Resources */,
 				04B3CC3724B99616005F76E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
