@@ -22,7 +22,7 @@ class PhotosCollectionViewController: UICollectionViewController {
     
     weak var delegate: MultiplePhotoSelectionDelegate?
     
-    let fetchPhotoService = FetchPhotoService()
+    let fetchPhotoService = FetchPhotoServiceViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()

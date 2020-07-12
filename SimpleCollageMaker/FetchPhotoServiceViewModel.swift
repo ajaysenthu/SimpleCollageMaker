@@ -1,5 +1,5 @@
 //
-//  FetchPhotoService.swift
+//  FetchPhotoServiceViewModel.swift
 //  SimpleCollageMaker
 //
 //  Created by mac on 11/07/20.
@@ -14,7 +14,7 @@ typealias ImageCallback = (_ image: UIImage?) -> Void
 
 typealias SuccessCallback = (_ success: Bool?) -> Void
 
-class FetchPhotoService {
+class FetchPhotoServiceViewModel {
     
     var photoAssets : PHFetchResult<PHAsset>? = nil
     
@@ -27,7 +27,7 @@ class FetchPhotoService {
     
     func requestPhotosFromPhotoLibrary() {
         
-        PHPhotoLibrary.requestAuthorization { (status) in
+        PHPhotoLibrary.requestAuthorization { (status) in    // Fetch from photoLibrary model
             
             switch status {
                 

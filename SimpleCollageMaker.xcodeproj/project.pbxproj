@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0401578D24B9F68D009F6BA5 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401578B24B9F68D009F6BA5 /* PhotoCollectionViewCell.swift */; };
 		0401578E24B9F68D009F6BA5 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0401578C24B9F68D009F6BA5 /* PhotoCollectionViewCell.xib */; };
-		0401579024BA152F009F6BA5 /* FetchPhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401578F24BA152F009F6BA5 /* FetchPhotoService.swift */; };
+		0401579024BA152F009F6BA5 /* FetchPhotoServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401578F24BA152F009F6BA5 /* FetchPhotoServiceViewModel.swift */; };
 		04B3CC3024B99616005F76E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3CC2F24B99616005F76E8 /* AppDelegate.swift */; };
 		04B3CC3224B99616005F76E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3CC3124B99616005F76E8 /* SceneDelegate.swift */; };
 		04B3CC3424B99616005F76E8 /* CollageMakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3CC3324B99616005F76E8 /* CollageMakerViewController.swift */; };
@@ -23,7 +23,7 @@
 /* Begin PBXFileReference section */
 		0401578B24B9F68D009F6BA5 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		0401578C24B9F68D009F6BA5 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
-		0401578F24BA152F009F6BA5 /* FetchPhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPhotoService.swift; sourceTree = "<group>"; };
+		0401578F24BA152F009F6BA5 /* FetchPhotoServiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPhotoServiceViewModel.swift; sourceTree = "<group>"; };
 		04B3CC2C24B99616005F76E8 /* SimpleCollageMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCollageMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B3CC2F24B99616005F76E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B3CC3124B99616005F76E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 				04B3CC2F24B99616005F76E8 /* AppDelegate.swift */,
 				04B3CC3124B99616005F76E8 /* SceneDelegate.swift */,
 				04B3CC3324B99616005F76E8 /* CollageMakerViewController.swift */,
-				0401578F24BA152F009F6BA5 /* FetchPhotoService.swift */,
+				0401578F24BA152F009F6BA5 /* FetchPhotoServiceViewModel.swift */,
 				04B3CC4624B9C72E005F76E8 /* PhotosCollectionViewController.swift */,
 				0401578B24B9F68D009F6BA5 /* PhotoCollectionViewCell.swift */,
 				0401578C24B9F68D009F6BA5 /* PhotoCollectionViewCell.xib */,
@@ -159,7 +159,7 @@
 				04B3CC3024B99616005F76E8 /* AppDelegate.swift in Sources */,
 				04B3CC4724B9C72E005F76E8 /* PhotosCollectionViewController.swift in Sources */,
 				0401578D24B9F68D009F6BA5 /* PhotoCollectionViewCell.swift in Sources */,
-				0401579024BA152F009F6BA5 /* FetchPhotoService.swift in Sources */,
+				0401579024BA152F009F6BA5 /* FetchPhotoServiceViewModel.swift in Sources */,
 				04B3CC3224B99616005F76E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
