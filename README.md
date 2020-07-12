@@ -1,5 +1,5 @@
 # SimpleCollageMaker
-This is a simple collage maker where you can select multiple photos from photo library, add it to the canvas and export it as an image. You can drag, rotate, scale and even remove a photo from the canvas.
+This is a simple collage maker app where you can select multiple photos from photo library, add it to the canvas and export it as an image. You can drag, rotate, scale and even remove a photo from the canvas.
 
 <img width="361" alt="Screenshot 2020-07-12 at 10 29 20 PM" src="https://user-images.githubusercontent.com/16835144/87252260-2cd8e200-c48f-11ea-852b-54e83b43710f.png">
 
