@@ -20,12 +20,7 @@ class FetchPhotoServiceViewModel {
     
     var allPhotos = [UIImage]()
     
-    init() {
-        
-       requestPhotosFromPhotoLibrary()
-    }
-    
-    func requestPhotosFromPhotoLibrary() {
+    func requestPhotosFromPhotoLibrary(_ completion: @escaping SuccessCallback) {
         
         PHPhotoLibrary.requestAuthorization { (status) in    // Fetch from photoLibrary model
             
@@ -36,14 +31,23 @@ class FetchPhotoServiceViewModel {
               let fetchOptions = PHFetchOptions()
               
               self.photoAssets = PHAsset.fetchAssets(with: .image, options: fetchOptions)
+                
+              self.loadAllPhotos { (success) in
+                
+                completion(success)
+              }
                               
             case .denied, .restricted:
               
                 print("Access Denied")
+                
+                completion(false)
               
             case .notDetermined:
               
                 print("Not Determined")
+                
+                completion(false)
               
             @unknown default:
               fatalError()

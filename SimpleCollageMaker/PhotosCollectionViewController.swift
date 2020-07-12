@@ -50,16 +50,13 @@ class PhotosCollectionViewController: UICollectionViewController {
         
         // Do any additional setup after loading the view.
         
-        DispatchQueue.global().asyncAfter(deadline: .now() + 0.2) {
-         
-            self.fetchPhotoService.loadAllPhotos { (success) in
+        self.fetchPhotoService.requestPhotosFromPhotoLibrary { [weak self] (success) in
                 
-                if success ?? false {
-                    
-                    DispatchQueue.main.async {
-                        
-                        self.collectionView.reloadData()
-                    }
+            if success ?? false {
+                   
+                DispatchQueue.main.async {
+                       
+                    self?.collectionView.reloadData()
                 }
             }
         }

@@ -6,7 +6,6 @@
 //  Copyright © 2020 Aj. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class CollageMakerViewController: UIViewController, MultiplePhotoSelectionDelegate {
@@ -34,9 +33,7 @@ class CollageMakerViewController: UIViewController, MultiplePhotoSelectionDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        self.view.backgroundColor = .white
-                
+                        
         self.navigationItem.title = "Make your Collage"
         
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Add", style: .plain, target: self, action: #selector(openPhotos))
@@ -142,6 +139,14 @@ class CollageMakerViewController: UIViewController, MultiplePhotoSelectionDelega
             
             photoView.addGestureRecognizer(tapGestureRecognizer)
             
+            let rotationGestureRecognizer = UIRotationGestureRecognizer(target: self, action: #selector(rotateRecognized(_:)))
+            
+            photoView.addGestureRecognizer(rotationGestureRecognizer)
+            
+            let pinchGestureRecognizer = UIPinchGestureRecognizer(target: self, action: #selector(pinchRecognized(_:)))
+            
+            photoView.addGestureRecognizer(pinchGestureRecognizer)
+            
             photoViews.append(photoView)
             
             canvasView.addSubview(photoView)
@@ -174,6 +179,30 @@ class CollageMakerViewController: UIViewController, MultiplePhotoSelectionDelega
         }
     }
     
+    @objc func rotateRecognized(_ gestureRecognizer : UIRotationGestureRecognizer) {
+        
+        guard gestureRecognizer.view != nil else { return }
+               
+          if gestureRecognizer.state == .began || gestureRecognizer.state == .changed {
+            
+             gestureRecognizer.view?.transform = gestureRecognizer.view!.transform.rotated(by: gestureRecognizer.rotation)
+            
+             gestureRecognizer.rotation = 0
+          }
+    }
+    
+    @objc func pinchRecognized(_ gestureRecognizer : UIPinchGestureRecognizer) {
+        
+        guard gestureRecognizer.view != nil else { return }
+        
+        if gestureRecognizer.state == .began || gestureRecognizer.state == .changed {
+           
+            gestureRecognizer.view?.transform = gestureRecognizer.view?.transform.scaledBy(x: gestureRecognizer.scale, y: gestureRecognizer.scale) as! CGAffineTransform
+            
+           gestureRecognizer.scale = 1.0
+        }
+    }
+    
     @IBAction func removeButtonAction(_ sender: UIButton) {
         
         guard let index = self.selectedPhotoView?.index, self.selectedPhotoView?.isHighlighted ?? false else {
@@ -196,9 +225,7 @@ class CollageMakerViewController: UIViewController, MultiplePhotoSelectionDelega
                 
         selectedPhotoView = nil
         
-        removeButton.isUserInteractionEnabled = false
-        
-        removeButton.alpha = 0.25
+        shouldActivateHighlightComponents(yes: false)
         
         if photoViews.count <= 0 {
             
