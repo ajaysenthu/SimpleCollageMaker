@@ -14,3 +14,5 @@ This is a simple collage maker where you can select multiple photos from photo l
 5. You can remove a photo by a single tap on it and the then tap on 'Remove' button to remove it from the canvas.
 
 6. Now, you can tap on 'Export' button at the top right corner and select tap on 'Save Image' to save it your saved photos album, if you're using email apps in the device you can also send it as an attachment through gmail, skype or mail.
+
+# No third parties used in this sample app.
